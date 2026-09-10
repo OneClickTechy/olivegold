@@ -1,0 +1,19 @@
+{
+  "status": "LIVE",
+  "isRealLiveFetch": true,
+  "market": "Chennai MJDMA / IBJA Bullion Index",
+  "location": "Chennai, Tamil Nadu",
+  "currency": "INR",
+  "unit": "gram",
+  "updatedDate": "2026-09-10",
+  "formattedDate": "10 Sep 2026",
+  "rates": {
+    "24k": 15551,
+    "22k": 14255,
+    "18k": 12025
+  },
+  "trend": "+110",
+  "trendDirection": "up",
+  "source": "LiveChennai & GoodReturns Official Chennai Bullion Feed",
+  "disclaimer": "Official spot benchmark for Chennai retail bullion and non-destructive valuation."
+}

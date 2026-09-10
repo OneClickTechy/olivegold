@@ -1,0 +1,7 @@
+name = "olivegold-rates-api"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Optional: override 22k rate if you want to set a fixed counter price
+# MANUAL_22K_RATE = "7180"
