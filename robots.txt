@@ -1,0 +1,14 @@
+# Robots.txt for Olive Gold Company
+# https://olivegold.co.in/
+
+User-agent: *
+Allow: /
+
+# Explicitly ensure static asset directories are crawlable
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/
+
+# Canonical Sitemap location
+Sitemap: https://olivegold.co.in/sitemap.xml
