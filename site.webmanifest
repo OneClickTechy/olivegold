@@ -1,0 +1,21 @@
+{
+    "name": "Olive Gold Company",
+    "short_name": "Olive Gold",
+    "icons": [
+        {
+            "src": "/assets/logo-optimized.webp",
+            "sizes": "192x192",
+            "type": "image/webp"
+        },
+        {
+            "src": "/assets/logo-optimized.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "start_url": "/",
+    "orientation": "portrait"
+}
