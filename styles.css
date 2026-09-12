@@ -1984,6 +1984,17 @@ body.mouse-active .mouse-ambient-glow {
     color: var(--brand-forest);
 }
 
+/* Flagship card always has a dark bg, so enforce light text regardless of parent section theme */
+.services-section-light .flagship-service-card .flagship-points li,
+.service-section-light .flagship-service-card .flagship-points li {
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.services-section-light .flagship-service-card .flagship-points li i,
+.service-section-light .flagship-service-card .flagship-points li i {
+    color: var(--gold-light);
+}
+
 /* Dark Royal Forest Service Section */
 .service-section-dark {
     padding: clamp(5rem, 7.5vw, 7rem) var(--container-gutter);
@@ -4216,6 +4227,7 @@ textarea.form-control {
     max-width: var(--container-max);
     margin: 0 auto;
     padding-top: 2rem;
+    padding-bottom: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
@@ -4224,6 +4236,10 @@ textarea.form-control {
     gap: 1rem;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-bottom-bar a:hover {
+    color: var(--gold-primary) !important;
 }
 
 /* --------------------------------------------------------------------------
@@ -4709,6 +4725,14 @@ textarea.form-control {
 
     .footer-container {
         grid-template-columns: 1fr;
+    }
+
+    .footer-bottom-bar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.6rem;
+        padding-bottom: 5rem;
     }
 
     .hero-glass-strip {
@@ -6980,6 +7004,10 @@ textarea.form-control {
     margin: 0 auto;
 }
 
+.process-split-content {
+    min-width: 0;
+}
+
 @media (min-width: 992px) {
     .process-split-layout {
         grid-template-columns: 1.1fr 0.9fr;
@@ -7058,12 +7086,15 @@ textarea.form-control {
     background: rgba(14, 28, 18, 0.75);
     border: 1px solid rgba(212, 175, 55, 0.25);
     border-radius: 16px;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
     margin-top: 2rem;
 }
 
 .comparison-matrix-table {
     width: 100%;
+    min-width: 600px;
     border-collapse: collapse;
     text-align: left;
 }
