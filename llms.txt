@@ -1,0 +1,17 @@
+# Olive Gold Company
+
+Olive Gold Company is Chennai’s trusted premier gold buyer, specializing in transparent gold valuation, XRF purity testing, and instant cash payouts for old and broken gold. Our flagship atelier is located at Pondy Bazaar, T. Nagar, Chennai.
+
+## Site Details
+- Base URL: https://www.olivegold.co.in/
+- Sitemap: https://www.olivegold.co.in/sitemap.xml
+- Language: English
+- Location: Chennai, Tamil Nadu, India
+
+## Key Pages
+- [Home](https://www.olivegold.co.in/)
+- [About Us](https://www.olivegold.co.in/about)
+- [Services](https://www.olivegold.co.in/services)
+- [Process](https://www.olivegold.co.in/process)
+- [Gallery](https://www.olivegold.co.in/gallery)
+- [Contact](https://www.olivegold.co.in/contact)
