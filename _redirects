@@ -1,0 +1,5 @@
+# Redirect index.html to root
+/index.html / 301
+
+# Redirect non-www to www (if supported by hosting provider)
+https://olivegold.co.in/* https://www.olivegold.co.in/:splat 301
