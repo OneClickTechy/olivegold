@@ -19,8 +19,8 @@
     --gold-primary: #D4AF37;
     --gold-light: #F4D675;
     --gold-champagne: #E6C875;
-    --gold-dark: #9A7B20;
-    --gold-gradient: linear-gradient(135deg, #F6DE8F 0%, #D4AF37 50%, #9A7B20 100%);
+    --gold-dark: #806419;
+    --gold-gradient: linear-gradient(135deg, #F6DE8F 0%, #D4AF37 50%, #806419 100%);
     --gold-glow: rgba(212, 175, 55, 0.22);
     --gold-subtle: rgba(212, 175, 55, 0.1);
 
@@ -34,7 +34,7 @@
     --text-primary: #121614;
     --text-forest: #152D1C;
     --text-secondary: #4A534E;
-    --text-muted: #737D77;
+    --text-muted: #5A655F;
     --text-dim: #A1AAA5;
 
     /* Hairline Architectural Borders */

@@ -368,6 +368,7 @@ function openDrawer() {
     if (!mobileDrawer) return;
     mobileDrawer.classList.add('open');
     mobileDrawer.setAttribute('aria-hidden', 'false');
+    mobileDrawer.removeAttribute('inert');
     if (mobileToggle) mobileToggle.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
     if (drawerClose) drawerClose.focus();
@@ -377,6 +378,7 @@ function closeDrawer() {
     if (!mobileDrawer) return;
     mobileDrawer.classList.remove('open');
     mobileDrawer.setAttribute('aria-hidden', 'true');
+    mobileDrawer.setAttribute('inert', '');
     if (mobileToggle) {
         mobileToggle.setAttribute('aria-expanded', 'false');
         mobileToggle.focus();
@@ -387,6 +389,7 @@ function closeDrawer() {
 if (mobileToggle && mobileDrawer) {
     mobileToggle.setAttribute('aria-expanded', 'false');
     mobileDrawer.setAttribute('aria-hidden', 'true');
+    mobileDrawer.setAttribute('inert', '');
     mobileToggle.addEventListener('click', openDrawer);
 }
 
@@ -2170,6 +2173,7 @@ function initWhatsAppChatbot() {
         if (isOpen) {
             chatWindow.classList.add('active');
             chatWindow.setAttribute('aria-hidden', 'false');
+    chatWindow.removeAttribute('inert');
             toggleBtn.setAttribute('aria-expanded', 'true');
             if (badge) badge.style.display = 'none';
             if (typeof lenis !== 'undefined' && lenis && window.innerWidth <= 600) {
@@ -2179,6 +2183,7 @@ function initWhatsAppChatbot() {
         } else {
             chatWindow.classList.remove('active');
             chatWindow.setAttribute('aria-hidden', 'true');
+    chatWindow.setAttribute('inert', '');
             toggleBtn.setAttribute('aria-expanded', 'false');
             if (typeof lenis !== 'undefined' && lenis) {
                 lenis.start();
