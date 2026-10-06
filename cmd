@@ -1,0 +1,1 @@
+ npx -y terser main.js -o main.min.js --compress --mangle; npx -y clean-css-cli -o styles.min.css styles.css
